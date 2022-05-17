@@ -22,7 +22,7 @@ aside {
 }
 
 main {
-    background-color: rgba(227, 28, 28, 0.692);
+    background-color: rgba(28, 197, 227, 0.692);
     flex-basis: 80%;
     height: 1000px;
     flex-grow: 1;
@@ -45,7 +45,7 @@ main {
 }
 
 .aside__header p {
-    color: rgb(192, 23, 23);
+    color: rgb(50, 233, 205);
     font-size: 18px;
 }
 
@@ -60,12 +60,12 @@ main {
 }
 
 .aside__list li:hover a {
-    color: rgb(210, 33, 33);
+    color: rgb(33, 172, 210);
 }
 
 .aside__list li a {
     text-decoration: none;
-    color: #ca2727;
+    color: #27a1ca;
     display: flex;
 }
 
@@ -80,7 +80,7 @@ main {
 }
 
 .aside__list li a.active__home {
-    color: rgb(179, 35, 35);
+    color: rgb(35, 153, 179);
 }
 
 main p {
