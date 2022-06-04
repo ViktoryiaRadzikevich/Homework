@@ -1,0 +1,267 @@
+body {
+    position: relative;
+    background-image: url(zima.jpg);
+    backdrop-filter: blur(0px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100%;
+    font-family: 'Open Sans0', sans-serif;
+}
+
+fieldset {
+    border: solid 1px #2ac91c;
+}
+
+.legend {
+    font-family: 'comic', sans-MS;
+    letter-spacing: 4px;
+    color: #2ac91c;
+    font-size: 20px;
+}
+
+.img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 620px;
+}
+
+fieldset div, input {
+    margin-top: 5px;
+    color: white;
+    outline: none;
+}
+
+.gender {
+    border: none;
+}
+
+.bordergreen {
+    border-radius: 5px;
+    width: initial;
+    padding: 3px;
+    border: 2px solid rgb(203, 216, 241);
+    transition: 0.6s;
+    width: 50%;
+}
+
+textarea {
+    outline: none;
+}
+
+.bordergreen:hover {
+    border: solid 2px #2ac91c;
+}
+
+.bordergreen:focus, textarea:focus {
+    border: solid 2px #2ac91c;
+}
+
+form {
+    margin-left: 5%;
+    width: 50%;
+    padding: 5px 5px 10px;
+    background: rgba(2, 2, 2, 0.6);
+    letter-spacing: 1px;
+    color: white;
+}
+
+.border input {
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: rgb(95, 95, 95, 0.4);
+    padding-left: 10px;
+}
+
+legend {
+    padding-left: 0px;
+    padding-bottom: 1px;
+}
+
+button {
+    background-color: rgb(95, 95, 95, 0.4);
+    border: 1px solid #CCCCCC;
+    box-shadow: 1 2px 2px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    border-radius: 4px;
+    color: white;
+    width: 120px;
+    height: 30px;
+    margin: 10px auto;
+    font-size: 16px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+    text-decoration: none;
+}
+
+button:hover, button:focus {
+    border-color: rgba(17, 252, 9, 0.8);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+    outline: 0 none;
+}
+
+input[type='radio'], label {
+    cursor: pointer;
+}
+
+input[type='radio'] {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+}
+
+input[type='radio']::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 2px solid #2ac91c;
+}
+
+input[type='radio']:checked::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #2ac91c;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+}
+
+::-webkit-datetime-edit-day-field {
+    padding-left: 10px;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+:-ms-input-placeholder {
+    color: white;
+}
+
+::-moz-placeholder {
+    color: white;
+    opacity: 1;
+}
+
+:-moz-placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.date input {
+    display: block;
+    background: rgb(95, 95, 95, 0.4);
+    width: 34%;
+    height: 30px;
+    border: none;
+    color: white;
+}
+
+select {
+    width: 40px;
+    height: 20px;
+    border: 1px solid #999;
+    font-size: 16px;
+    color: black;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 1px 1px #ccc;
+}
+
+input[id=smoking-room], input[id=different-rooms] {
+    display: none;
+}
+
+.checkbox, .checkbox-label {
+    cursor: pointer;
+    line-height: 35px;
+    position: relative;
+}
+
+.checkbox::after, .checkbox-label::after {
+    content: "NO";
+    font-size: 15px;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    line-height: initial;
+    position: absolute;
+    text-align: right;
+    box-sizing: border-box;
+    padding-top: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: 0.3s;
+}
+
+.checkbox-label::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left: 140px;
+    top: 5px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+input[type=checkbox]:checked+.checkbox::after, input[type=checkbox]:checked+.checkbox-label::after {
+    content: "YES";
+    text-align: left;
+    color: #2ac91c;
+    background: rgb(61, 61, 61);
+}
+
+input[type=checkbox]:checked+.checkbox-label::before {
+    position: absolute;
+    left: 176px;
+    background: #2ac91c;
+    z-index: 1;
+}
+
+.checkbox::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left: 130px;
+    top: 5px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+input[type=checkbox]:checked+.checkbox::before {
+    position: absolute;
+    left: 166px;
+    background: #2ac91c;
+    z-index: 1;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <form name="Registration form">
+        <fieldset>
+            <legend class="legend">Registration form:</legend>
+            <img class="img" src="dogovor.jpg" alt="facebook">
+            <div class="border">
+                <input class="bordergreen" type="name" maxlength="16" placeholder="First Name" size="50"
+                    spellceck="false" reguired="false" required>
+            </div>
+            <div class="border ">
+                <input class="bordergreen" type="name" maxlength="16" placeholder="Last Name" size="20"
+                    spellceck="false" required>
+            </div>
+
+            <div class="radio">
+                <legend>Gender:</legend>
+                <label for="Male">Male</label>
+                <input type="radio" id="male" name="gender">
+
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" checked="true">
+                </select>
+            </div>
+
+            <div class="date">
+                <label>Date of Birth:</label>
+                <input type="date" size="30">
+            </div>
+
+            <div class="border ">
+                <input class="bordergreen" type="email" size="20" placeholder="E-mail">
+            </div>
+
+            <div class="border">
+                <input class="bordergreen" type="tel" size="20" required placeholder="Telephone">
+            </div>
+
+            <div>
+                <label>How many children:</label>
+                <select required>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+
+
+            <div>
+                <label>How many adults:</label>
+                <select required>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+
+
+            <div class="date">
+                <label>Check-in or check-out date:</label>
+                <input type="datetime-local" size="25" required>
+            </div>
+
+            <div>
+                <input type="checkbox" id="smoking-room" name="smoking-room">
+                <label class="checkbox" for="smoking-room">Smoking room:</label>
+            </div>
+
+
+            <div>
+                <input type="checkbox" name="different-rooms" id="different-rooms">
+                <label class="checkbox-label" for="different-rooms">Different rooms:</label>
+            </div>
+
+            <div>
+                <label for="Smoking"></label>
+                <textarea class="bordergreen" type="text" placeholder="others comments" rows="6" cols="70"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+
+
+
+
+</body>
+
+
+</html>
