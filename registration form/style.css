@@ -11,13 +11,13 @@ body {
 }
 
 fieldset {
-    border: solid 1px #1c7ec9;
+    border: solid 1px #471cc9;
 }
 
 .legend {
     font-family: 'comic', sans-MS;
     letter-spacing: 4px;
-    color: #1c87c9;
+    color: #1ca8ff;
     font-size: 20px;
 }
 
