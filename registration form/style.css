@@ -1,6 +1,6 @@
 body {
     position: relative;
-    background-image: url(https://avatars.mds.yandex.net/get-zen_doc/2749135/pub_5eec9ab9b1eaa91ab06a622c_5eec9b26fb769c722b86986d/scale_1200);
+    background-image: url(https://ssobachka.ru/wp-content/uploads/2021/11/4.jpeg);
     backdrop-filter: blur(0px);
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,13 +11,13 @@ body {
 }
 
 fieldset {
-    border: solid 1px #471cc9;
+    border: solid 1px #c97e1c;
 }
 
 .legend {
     font-family: 'comic', sans-MS;
     letter-spacing: 4px;
-    color: #1ca8ff;
+    color: #ffc61c;
     font-size: 20px;
 }
 
